@@ -1,0 +1,17 @@
+{
+  "type": "standard",
+  "color": [
+    0.3676253453378717,
+    0.367631471839113,
+    0.367631471839113
+  ],
+  "roughness": 0.27,
+  "metalness": 1,
+  "emissive": [
+    1,
+    1,
+    1
+  ],
+  "emissiveIntensity": 0,
+  "albedoMap": "../Textures/grunge3.jpg"
+}

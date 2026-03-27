@@ -1,0 +1,17 @@
+{
+  "type": "standard",
+  "color": [
+    0.6038273590529664,
+    0.6038273590529664,
+    0.6038273590529664
+  ],
+  "roughness": 0.24320241808891296,
+  "metalness": 0.6038273590529664,
+  "emissive": [
+    1,
+    1,
+    1
+  ],
+  "emissiveIntensity": 0,
+  "albedoMap": "PapersPosters_textures/PapersPosters_posters_albedo.png"
+}

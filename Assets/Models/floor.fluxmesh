@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "sourceModel": "floor.fbx",
+  "materialSlots": [
+    {
+      "name": "floor",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "floor_floor.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

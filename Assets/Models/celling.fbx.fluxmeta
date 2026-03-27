@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "5ae72bb5-249a-4a03-abb9-be84f1c1fb4e",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/celling.fbx",
+  "sourceHash": "3463a912762dfa1c4621b3ace00ca2289c08bd43fe4bbafe19851efa01836332",
+  "importedHash": "3463a912762dfa1c4621b3ace00ca2289c08bd43fe4bbafe19851efa01836332",
+  "fileSize": 15916,
+  "importedAt": "2026-03-27T19:25:44.795Z",
+  "updatedAt": "2026-03-27T19:25:44.795Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/celling.fluxmesh"
+  },
+  "tags": []
+}

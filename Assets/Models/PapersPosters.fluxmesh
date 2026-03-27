@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sourceModel": "PapersPosters.fbx",
+  "materialSlots": [
+    {
+      "name": "papers",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "PapersPosters_papers.fluxmat"
+    },
+    {
+      "name": "posters",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 1
+        }
+      ],
+      "defaultMaterial": "PapersPosters_posters.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

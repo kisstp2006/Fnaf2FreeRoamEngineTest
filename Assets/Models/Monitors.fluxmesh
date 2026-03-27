@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "sourceModel": "Monitors.fbx",
+  "materialSlots": [
+    {
+      "name": "metal",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "Monitors_metal.fluxmat"
+    },
+    {
+      "name": "silver",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 1
+        }
+      ],
+      "defaultMaterial": "Monitors_silver.fluxmat"
+    },
+    {
+      "name": "black",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 2
+        }
+      ],
+      "defaultMaterial": "Monitors_black.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

@@ -1,0 +1,17 @@
+{
+  "type": "standard",
+  "color": [
+    0.6038273590529664,
+    0.6038273590529664,
+    0.6038273590529664
+  ],
+  "roughness": 0.1283988058567047,
+  "metalness": 0.6038273590529664,
+  "emissive": [
+    1,
+    1,
+    1
+  ],
+  "emissiveIntensity": 0,
+  "albedoMap": "walls_textures/walls_floor_albedo.png"
+}

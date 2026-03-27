@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "65ff3aef-6cca-4d0b-ae0c-b1c7707be42c",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/Monitors.fbx",
+  "sourceHash": "39c5cf0c3fa3c490d7bb92071ab7e6f0f8e59bd55d0f264dda6a6926d965781b",
+  "importedHash": "39c5cf0c3fa3c490d7bb92071ab7e6f0f8e59bd55d0f264dda6a6926d965781b",
+  "fileSize": 1002956,
+  "importedAt": "2026-03-27T19:28:13.001Z",
+  "updatedAt": "2026-03-27T19:28:13.001Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/Monitors.fluxmesh"
+  },
+  "tags": []
+}

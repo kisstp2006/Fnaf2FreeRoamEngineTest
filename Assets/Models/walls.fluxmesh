@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "sourceModel": "walls.fbx",
+  "materialSlots": [
+    {
+      "name": "walls",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "walls_walls.fluxmat"
+    },
+    {
+      "name": "wall grey",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 1
+        }
+      ],
+      "defaultMaterial": "walls_wall_grey.fluxmat"
+    },
+    {
+      "name": "floor",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 2
+        }
+      ],
+      "defaultMaterial": "walls_floor.fluxmat"
+    },
+    {
+      "name": "walls dirty",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 3
+        }
+      ],
+      "defaultMaterial": "walls_walls_dirty.fluxmat"
+    },
+    {
+      "name": "black",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 4
+        }
+      ],
+      "defaultMaterial": "walls_black.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "name": "WallDirty",
+  "graph": {
+    "nodes": [
+      {
+        "id": "output_1",
+        "type": "PBROutput",
+        "position": {
+          "x": 762.7326890478956,
+          "y": 181.20123022306777
+        },
+        "properties": {}
+      },
+      {
+        "id": "Color_1774639086333_2",
+        "type": "Color",
+        "position": {
+          "x": 448.4719535285962,
+          "y": 112.34754930747462
+        },
+        "properties": {
+          "color": "#500707"
+        }
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_1774639088774_2",
+        "fromNode": "Color_1774639086333_2",
+        "fromOutput": "RGB",
+        "toNode": "output_1",
+        "toInput": "Albedo"
+      }
+    ]
+  }
+}

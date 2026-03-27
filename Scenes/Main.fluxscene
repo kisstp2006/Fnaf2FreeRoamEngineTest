@@ -1,0 +1,320 @@
+{
+  "name": "Main Scene",
+  "version": 1,
+  "settings": {
+    "ambientColor": [
+      0.27,
+      0.27,
+      0.35
+    ],
+    "ambientIntensity": 0.5,
+    "fogEnabled": true,
+    "fogColor": [
+      0.04,
+      0.055,
+      0.09
+    ],
+    "fogDensity": 0.008,
+    "skybox": null,
+    "physicsGravity": [
+      0,
+      -9.81,
+      0
+    ]
+  },
+  "entities": [
+    {
+      "id": 1,
+      "name": "Ambient Light",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "enabled": true,
+            "lightType": "ambient",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 10,
+            "range": 10,
+            "castShadow": false,
+            "shadowMapSize": 2048,
+            "spotAngle": 45,
+            "spotPenumbra": 0.1,
+            "cookieTexturePath": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Directional Light",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              -51.61583115051736,
+              40,
+              17.19983893266161
+            ],
+            "rotation": [
+              -0.6243286174540299,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "enabled": true,
+            "lightType": "directional",
+            "color": [
+              1,
+              0.93,
+              0.87
+            ],
+            "intensity": 1,
+            "range": 200,
+            "castShadow": false,
+            "shadowMapSize": 4096,
+            "spotAngle": 45,
+            "spotPenumbra": 0.1,
+            "cookieTexturePath": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "floor",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "castShadow": true,
+            "receiveShadow": true,
+            "modelPath": "Assets/Models/floor.fluxmesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "walls",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "castShadow": true,
+            "receiveShadow": true,
+            "modelPath": "Assets/Models/walls.fluxmesh",
+            "materialSlots": [
+              {
+                "slotIndex": 4,
+                "materialPath": "Assets/Models/walls_black.fluxmat"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "celling",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "castShadow": true,
+            "receiveShadow": true,
+            "modelPath": "Assets/Models/celling.fluxmesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Monitors",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "castShadow": true,
+            "receiveShadow": true,
+            "modelPath": "Assets/Models/Monitors.fluxmesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "PapersPosters",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "castShadow": true,
+            "receiveShadow": true,
+            "modelPath": "Assets/Models/PapersPosters.fluxmesh"
+          }
+        }
+      ]
+    }
+  ],
+  "editorCamera": {
+    "position": [
+      -59.10395738035991,
+      22.408608762139785,
+      69.73254207382865
+    ],
+    "target": [
+      -52.885520820430536,
+      19.574784670991118,
+      64.07216491715184
+    ],
+    "fov": 60
+  }
+}

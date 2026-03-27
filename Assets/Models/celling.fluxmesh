@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "sourceModel": "celling.fbx",
+  "materialSlots": [
+    {
+      "name": "wall grey",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "celling_wall_grey.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

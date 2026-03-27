@@ -1,0 +1,18 @@
+{
+  "type": "standard",
+  "color": [
+    1,
+    1,
+    1
+  ],
+  "roughness": 0.4456193447113037,
+  "metalness": 0.6038273590529664,
+  "emissive": [
+    1,
+    1,
+    1
+  ],
+  "emissiveIntensity": 0,
+  "albedoMap": "../Textures/torres fnaf2 wall.png",
+  "normalScale": 2
+}

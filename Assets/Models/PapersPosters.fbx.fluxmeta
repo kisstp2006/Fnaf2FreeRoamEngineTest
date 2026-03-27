@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "7d673778-3309-473e-9084-d76934bb5d8a",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/PapersPosters.fbx",
+  "sourceHash": "ebf6eb31f01dd81683756c1aed2befcae8b0a7fe72a4d9b03b4bad2692348ca2",
+  "importedHash": "ebf6eb31f01dd81683756c1aed2befcae8b0a7fe72a4d9b03b4bad2692348ca2",
+  "fileSize": 20032476,
+  "importedAt": "2026-03-27T19:33:42.422Z",
+  "updatedAt": "2026-03-27T19:33:42.422Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/PapersPosters.fluxmesh"
+  },
+  "tags": []
+}
