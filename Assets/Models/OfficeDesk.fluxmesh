@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "sourceModel": "OfficeDesk.fbx",
+  "materialSlots": [
+    {
+      "name": "metal",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        },
+        {
+          "meshIndex": 0,
+          "materialIndex": 1
+        }
+      ],
+      "defaultMaterial": "OfficeDesk_metal.fluxmat"
+    },
+    {
+      "name": "desk",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 2
+        }
+      ],
+      "defaultMaterial": "OfficeDesk_desk.fluxmat"
+    },
+    {
+      "name": "walls",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 3
+        }
+      ],
+      "defaultMaterial": "OfficeDesk_walls.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

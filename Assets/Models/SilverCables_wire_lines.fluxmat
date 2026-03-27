@@ -1,0 +1,18 @@
+{
+  "type": "standard",
+  "color": [
+    0.03593192562352067,
+    0.03593192562352067,
+    0.03593192562352067
+  ],
+  "roughness": 0.4123867154121399,
+  "metalness": 0,
+  "emissive": [
+    1,
+    1,
+    1
+  ],
+  "emissiveIntensity": 0,
+  "normalMap": "../Textures/WireBump.png",
+  "normalScale": 0.55
+}

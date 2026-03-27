@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "mode": "screen",
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "root": {
+    "id": "root",
+    "type": "panel",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720
+    },
+    "children": [
+      {
+        "id": "title",
+        "type": "label",
+        "rect": {
+          "x": -186.31104432757246,
+          "y": 20,
+          "w": 1245.3493613824185,
+          "h": 60
+        },
+        "text": "Night 1",
+        "style": {
+          "color": "#ffffff",
+          "fontSize": 43,
+          "align": "left"
+        }
+      },
+      {
+        "id": "btn1",
+        "type": "button",
+        "rect": {
+          "x": 18.22954235332142,
+          "y": 639.162896824414,
+          "w": 200,
+          "h": 60
+        },
+        "text": "Click Me",
+        "style": {
+          "backgroundColor": "#2b3a67",
+          "borderColor": "#6b8cff",
+          "borderWidth": 2,
+          "radius": 10,
+          "textColor": "#ffffff",
+          "fontSize": 24,
+          "align": "center",
+          "padding": 8
+        }
+      }
+    ],
+    "style": {
+      "backgroundColor": "#0b1020",
+      "opacity": 0
+    }
+  },
+  "animations": [
+    {
+      "id": "anim_mn9beb5v",
+      "name": "NightBegin",
+      "duration": 1,
+      "loop": false,
+      "tracks": [
+        {
+          "nodeId": "title",
+          "property": "x",
+          "keyframes": [
+            {
+              "time": 0.039634146341463415,
+              "value": -186.31104432757246,
+              "easing": "linear"
+            },
+            {
+              "time": 0.598780487804878,
+              "value": 17.325319308790768,
+              "easing": "step"
+            }
+          ]
+        },
+        {
+          "nodeId": "title",
+          "property": "y",
+          "keyframes": [
+            {
+              "time": 0.598780487804878,
+              "value": 20,
+              "easing": "linear"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

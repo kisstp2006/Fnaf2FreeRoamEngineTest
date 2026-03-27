@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sourceModel": "SilverCables.fbx",
+  "materialSlots": [
+    {
+      "name": "wire lines",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "SilverCables_wire_lines.fluxmat"
+    },
+    {
+      "name": "black",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 1
+        }
+      ],
+      "defaultMaterial": "SilverCables_black.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

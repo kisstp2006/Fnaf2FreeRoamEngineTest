@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "cd52baf2-5df3-4fb9-b0e2-6951d0d34942",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/OfficeDesk.fbx",
+  "sourceHash": "e03be56c1e152d46aafc796fd28623595cb5bead0e27bddf95f375d154bde602",
+  "importedHash": "e03be56c1e152d46aafc796fd28623595cb5bead0e27bddf95f375d154bde602",
+  "fileSize": 5726284,
+  "importedAt": "2026-03-27T19:54:30.692Z",
+  "updatedAt": "2026-03-27T19:54:30.692Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/OfficeDesk.fluxmesh"
+  },
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "6ce96979-37dd-4d7d-ba66-3ead4876cef1",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/SilverCables.fbx",
+  "sourceHash": "0485b611f4b9cd7af892c59d6bf66ad173e410bc3e3f8861c76871d23c2b9864",
+  "importedHash": "0485b611f4b9cd7af892c59d6bf66ad173e410bc3e3f8861c76871d23c2b9864",
+  "fileSize": 2419996,
+  "importedAt": "2026-03-27T19:42:46.190Z",
+  "updatedAt": "2026-03-27T19:42:46.190Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/SilverCables.fluxmesh"
+  },
+  "tags": []
+}

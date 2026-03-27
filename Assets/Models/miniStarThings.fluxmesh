@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "sourceModel": "miniStarThings.fbx",
+  "materialSlots": [
+    {
+      "name": "silver",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "miniStarThings_silver.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

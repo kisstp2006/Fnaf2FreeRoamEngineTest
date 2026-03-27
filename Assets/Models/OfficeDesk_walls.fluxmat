@@ -1,0 +1,17 @@
+{
+  "type": "standard",
+  "color": [
+    0.6038273590529664,
+    0.6038273590529664,
+    0.6038273590529664
+  ],
+  "roughness": 0.4456193447113037,
+  "metalness": 0.6038273590529664,
+  "emissive": [
+    1,
+    1,
+    1
+  ],
+  "emissiveIntensity": 0,
+  "albedoMap": "OfficeDesk_textures/OfficeDesk_walls_albedo.png"
+}

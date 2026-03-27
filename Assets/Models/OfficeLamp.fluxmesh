@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sourceModel": "OfficeLamp.fbx",
+  "materialSlots": [
+    {
+      "name": "metal",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 0
+        }
+      ],
+      "defaultMaterial": "OfficeLamp_metal.fluxmat"
+    },
+    {
+      "name": "Lamp 2",
+      "subMeshIndices": [
+        0
+      ],
+      "subMeshMappings": [
+        {
+          "meshIndex": 0,
+          "materialIndex": 1
+        }
+      ],
+      "defaultMaterial": "OfficeLamp_Lamp_2.fluxmat"
+    }
+  ],
+  "importScale": 0.301
+}

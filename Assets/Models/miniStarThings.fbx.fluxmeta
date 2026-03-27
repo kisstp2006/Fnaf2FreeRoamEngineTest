@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "63624393-e2b7-43b8-bb39-7dacc1d46b56",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/miniStarThings.fbx",
+  "sourceHash": "bbc83832d0e2d781369be9d95cba23f31eb39b728145187c1ef0acf9829c2607",
+  "importedHash": "bbc83832d0e2d781369be9d95cba23f31eb39b728145187c1ef0acf9829c2607",
+  "fileSize": 693052,
+  "importedAt": "2026-03-27T19:39:37.083Z",
+  "updatedAt": "2026-03-27T19:39:37.083Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/miniStarThings.fluxmesh"
+  },
+  "tags": []
+}

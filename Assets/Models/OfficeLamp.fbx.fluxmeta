@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "701eea6b-81fb-4a91-a350-e4b92bd45c31",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/fnaf2map/OfficeLamp.fbx",
+  "sourceHash": "45501c6b7e6de7825b8d2484f50e6bca76c25e680a7c63a9c6f068e73689142b",
+  "importedHash": "45501c6b7e6de7825b8d2484f50e6bca76c25e680a7c63a9c6f068e73689142b",
+  "fileSize": 67196,
+  "importedAt": "2026-03-27T19:57:36.544Z",
+  "updatedAt": "2026-03-27T19:57:36.544Z",
+  "importSettings": {
+    "scale": 0.301,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/Models/OfficeLamp.fluxmesh"
+  },
+  "tags": []
+}
