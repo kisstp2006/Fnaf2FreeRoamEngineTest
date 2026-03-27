@@ -1,6 +1,6 @@
 {
   "name": "Main Scene",
-  "version": 1,
+  "version": 2,
   "settings": {
     "ambientColor": [
       0.27,
@@ -32,6 +32,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -52,7 +53,7 @@
         {
           "type": "Light",
           "data": {
-            "enabled": true,
+            "__v": 1,
             "lightType": "ambient",
             "color": [
               1,
@@ -61,10 +62,10 @@
             ],
             "intensity": 0,
             "range": 10,
-            "castShadow": false,
-            "shadowMapSize": 2048,
             "spotAngle": 45,
             "spotPenumbra": 0.1,
+            "castShadow": false,
+            "shadowMapSize": 2048,
             "cookieTexturePath": null
           }
         }
@@ -72,53 +73,6 @@
     },
     {
       "id": 2,
-      "name": "Directional Light",
-      "parent": null,
-      "tags": [],
-      "components": [
-        {
-          "type": "Transform",
-          "data": {
-            "position": [
-              -51.61583115051736,
-              40,
-              17.19983893266161
-            ],
-            "rotation": [
-              -0.6243286174540299,
-              0,
-              0
-            ],
-            "scale": [
-              1,
-              1,
-              1
-            ]
-          }
-        },
-        {
-          "type": "Light",
-          "data": {
-            "enabled": true,
-            "lightType": "directional",
-            "color": [
-              1,
-              0.93,
-              0.87
-            ],
-            "intensity": 0,
-            "range": 200,
-            "castShadow": false,
-            "shadowMapSize": 4096,
-            "spotAngle": 45,
-            "spotPenumbra": 0.1,
-            "cookieTexturePath": null
-          }
-        }
-      ]
-    },
-    {
-      "id": 3,
       "name": "floor",
       "parent": null,
       "tags": [],
@@ -126,6 +80,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -146,15 +101,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/floor.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "walls",
       "parent": null,
       "tags": [],
@@ -162,6 +119,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -182,8 +140,10 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/walls.fluxmesh",
             "materialSlots": [
               {
@@ -196,7 +156,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "celling",
       "parent": null,
       "tags": [],
@@ -204,6 +164,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -224,15 +185,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/celling.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Monitors",
       "parent": null,
       "tags": [],
@@ -240,6 +203,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -260,15 +224,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/Monitors.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "PapersPosters",
       "parent": null,
       "tags": [],
@@ -276,6 +242,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -296,15 +263,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/PapersPosters.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "miniStarThings",
       "parent": null,
       "tags": [],
@@ -312,6 +281,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -332,15 +302,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/miniStarThings.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "SilverCables",
       "parent": null,
       "tags": [],
@@ -348,6 +320,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -368,15 +341,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/SilverCables.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 11,
+      "id": 9,
       "name": "OfficeDesk",
       "parent": null,
       "tags": [],
@@ -384,6 +359,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -404,15 +380,17 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/OfficeDesk.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "OfficeLamp",
       "parent": null,
       "tags": [],
@@ -420,6 +398,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -440,22 +419,25 @@
         {
           "type": "MeshRenderer",
           "data": {
+            "__v": 1,
             "castShadow": true,
             "receiveShadow": true,
+            "layer": 0,
             "modelPath": "Assets/Models/OfficeLamp.fluxmesh"
           }
         }
       ]
     },
     {
-      "id": 13,
-      "name": "Empty Entity",
+      "id": 11,
+      "name": "Enviroment",
       "parent": null,
       "tags": [],
       "components": [
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               0,
               0,
@@ -476,7 +458,7 @@
         {
           "type": "Environment",
           "data": {
-            "enabled": true,
+            "__v": 1,
             "backgroundMode": "color",
             "backgroundColor": [
               0.0030352698352941175,
@@ -485,20 +467,12 @@
             ],
             "skyboxMode": "panorama",
             "skyboxPath": null,
-            "skyboxFaces": {
-              "right": null,
-              "left": null,
-              "top": null,
-              "bottom": null,
-              "front": null,
-              "back": null
-            },
             "ambientColor": [
               0.27,
               0.27,
               0.35
             ],
-            "ambientIntensity": 1.95,
+            "ambientIntensity": 0,
             "fogEnabled": true,
             "fogColor": [
               0,
@@ -509,7 +483,7 @@
             "fogDensity": 0.02,
             "fogNear": 10,
             "fogFar": 100,
-            "toneMapping": "Reinhard",
+            "toneMapping": "ACES",
             "exposure": 1.2,
             "bloomEnabled": true,
             "bloomThreshold": 0.1,
@@ -530,9 +504,6 @@
             "ssgiStepCount": 8,
             "ssgiRadius": 12,
             "ssgiThickness": 1,
-            "ssgiExpFactor": 2,
-            "ssgiAoIntensity": 0.1,
-            "ssgiGiIntensity": 1,
             "cloudsEnabled": false,
             "cloudMinHeight": 200,
             "cloudMaxHeight": 400,
@@ -546,6 +517,10 @@
               1
             ],
             "cloudSpeed": 1,
+            "dofEnabled": true,
+            "dofFocusDistance": 10,
+            "dofAperture": 0.025,
+            "dofMaxBlur": 10,
             "skyTurbidity": 2,
             "skyRayleigh": 1,
             "skyMieCoefficient": 0.005,
@@ -557,18 +532,12 @@
             "vignetteRoundness": 0.65,
             "chromaticAberration": 0.009,
             "filmGrain": 0.05,
-            "dofEnabled": true,
-            "dofFocusDistance": 10,
-            "dofAperture": 0.025,
-            "dofMaxBlur": 10,
-            "shadowCascades": 0,
-            "shadowDistance": 200,
             "vfogEnabled": true,
-            "vfogDensity": 0.05,
+            "vfogDensity": 0.01,
             "vfogAlbedo": [
-              0.8,
-              0.85,
-              0.9
+              0.11953842797895521,
+              0.11953842797895521,
+              0.11953842797895521
             ],
             "vfogScatter": 0.2,
             "vfogAbsorption": 1,
@@ -582,13 +551,23 @@
             "vfogEmissionEnergy": 0,
             "vfogAffectSky": 0.5,
             "vfogSteps": 32,
-            "vfogMaxDistance": 200
+            "vfogMaxDistance": 200,
+            "shadowCascades": 0,
+            "shadowDistance": 200,
+            "skyboxFaces": {
+              "right": null,
+              "left": null,
+              "top": null,
+              "bottom": null,
+              "front": null,
+              "back": null
+            }
           }
         }
       ]
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "Camera",
       "parent": null,
       "tags": [],
@@ -596,6 +575,7 @@
         {
           "type": "Transform",
           "data": {
+            "__v": 1,
             "position": [
               -49.9771617115666,
               13.107976813477471,
@@ -616,7 +596,7 @@
         {
           "type": "Camera",
           "data": {
-            "enabled": true,
+            "__v": 1,
             "fov": 60,
             "near": 0.1,
             "far": 1000,
@@ -625,20 +605,135 @@
             "priority": 0,
             "isMain": false
           }
+        },
+        {
+          "type": "Script",
+          "data": {
+            "__v": 1,
+            "enabled": true,
+            "scripts": [
+              {
+                "path": "Assets/Scripts/DebugCamera.ts",
+                "enabled": false,
+                "properties": {}
+              },
+              {
+                "path": "Assets/Scripts/P&CCamera.ts",
+                "enabled": true,
+                "properties": {}
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Point Light",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -49.65386873031521,
+              18.206054866920738,
+              58.379637408376986
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "__v": 1,
+            "lightType": "point",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 20,
+            "range": 60,
+            "spotAngle": 45,
+            "spotPenumbra": 0.1,
+            "castShadow": true,
+            "shadowMapSize": 2048,
+            "cookieTexturePath": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Point Light (copy)",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -49.664494443923495,
+              18.206054866920738,
+              58.379637408376986
+            ],
+            "rotation": [
+              -1.6141923858886704,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "__v": 1,
+            "lightType": "spot",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 20,
+            "range": 204,
+            "spotAngle": 102,
+            "spotPenumbra": 0.19,
+            "castShadow": true,
+            "shadowMapSize": 2048,
+            "cookieTexturePath": null
+          }
         }
       ]
     }
   ],
   "editorCamera": {
     "position": [
-      -41.065844046801864,
-      15.90876884035897,
-      72.40055034961617
+      -50.67980773272412,
+      14.654709518320313,
+      71.33253806974093
     ],
     "target": [
-      -45.825249463196215,
-      14.325952398097714,
-      68.76159740128041
+      -50.69464998268681,
+      14.59785387658905,
+      67.92742878021443
     ],
     "fov": 60
   }
