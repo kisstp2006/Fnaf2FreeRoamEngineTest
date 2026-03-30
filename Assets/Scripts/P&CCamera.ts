@@ -16,15 +16,15 @@ export default class P_CCamera extends FluxionBehaviour {
   debug_font_size = 14;             // Fontméret pixelben
   debug_font_weight = 600;          // Bold font (600 = semi-bold)
 
-  update(dt: number) {
-    const tf = this.gameObject.transform;
+  onUpdate(dt: number) {
+    const tf = this.transform;
     if (!tf) return;
 
     const screenWidth = window.innerWidth || this.screen_width; // ✅ Window fallback!
     
     // 🔹 Mouse pozíció szinkronizálása a képernyő szélességével
-    const mouseX = Math.abs(this.Input.mousePosition.x);
-    const mouseY = this.Input.mousePosition.y;
+    const mouseX = Math.abs(Input.mousePosition.x);
+    const mouseY = Input.mousePosition.y;
     const mouseNormalized = (mouseX / screenWidth) * 100; // 0-100% X
 
     // 🔹 Screen width határok (deadzone alkalmazva)
@@ -32,8 +32,8 @@ export default class P_CCamera extends FluxionBehaviour {
     const rightEdge = screenWidth * (1 - this.deadzone);
 
     // 🎮 Forogtatás Y tengely körül (kamera fordítása jobbra-balra)
-    if (this.debug_mode && show_mouse) {
-      console.log(`MouseX: ${mouseX}px | MouseY: ${mouseY}px | Normalized: ${mouseNormalized.toFixed(1)}%`);
+    if (this.debug_mode && this.show_mouse) {
+      Debug.log(`MouseX: ${mouseX}px | MouseY: ${mouseY}px | Normalized: ${mouseNormalized.toFixed(1)}%`);
     }
 
     if (mouseX < leftEdge) {
@@ -52,45 +52,45 @@ export default class P_CCamera extends FluxionBehaviour {
     tf.rotation.set(0, rotatedY, 0);
 
     // 🔹 Debug szöveg kiírása – Ha enabled!
-    if (debug_mode) {
-      const debugText = [
+    if (this.debug_mode) {
+      const debugLines: string[] = [
         `📍 Mouse: ${mouseX.toFixed(0)}px`,
         `   Norm: ${(mouseNormalized - 20).toFixed(1)}%`
       ];
 
       // Forogtatás információját – Rad és Deg-ben!
-      if (show_rotation) {
-        const rotationDeg = Mathf.radToDeg(rotatedY); // Új Mathf API? Ha nincs, írd át kézzel!
-        debugText.push(`🔀 Rotation Y: ${rotatedY.toFixed(4)} rad | ${rotationDeg.toFixed(1)}°`);
+      if (this.show_rotation) {
+        const rotationDeg = rotatedY * Mathf.Rad2Deg;
+        debugLines.push(`🔀 Rotation Y: ${rotatedY.toFixed(4)} rad | ${rotationDeg.toFixed(1)}°`);
       }
 
       // 📊 Statisztikák (speed, limit)
-      if (show_stats) {
-        debugText.push(`⚙️ Speed: ${this.camera_speed.toFixed(2)} rad/s`);
-        debugText.push(`   Limit: ±${Mathf.radToDeg(this.rotation_limit).toFixed(0)}°`);
-        debugText.push(`   Deadzone: ${(this.deadzone * 100).toFixed(0)}%`);
+      if (this.show_stats) {
+        debugLines.push(`⚙️ Speed: ${this.camera_speed.toFixed(2)} rad/s`);
+        debugLines.push(`   Limit: ±${(this.rotation_limit * Mathf.Rad2Deg).toFixed(0)}°`);
+        debugLines.push(`   Deadzone: ${(this.deadzone * 100).toFixed(0)}%`);
       }
 
       // ✨ Debug szöveg hozzáadása képernyőre
-      const debugLine = `Debug: ${debugText.join('\n')}`;
+      const debugLine = `Debug:\n${debugLines.join('\n')}`;
       Debug.drawText(vec2(8, 8), debugLine, color_hex("#4ade80"), this.debug_font_size);
     }
 
     // 🔹 Toggle – Lebegő billentyűvel (F12)
-    if (this.Input.isKeyPressed("Key_F12")) {
-      this.Debug.log(`Debug mode ${debug_mode ? 'OFF' : 'ON'}`);
-      debug_mode = !debug_mode;
+    if (Input.isKeyPressed("F12")) {
+      Debug.log(`Debug mode ${this.debug_mode ? 'OFF' : 'ON'}`);
+      this.debug_mode = !this.debug_mode;
     }
   }
 
   // 🔹 Start – Debug információk betöltése
-  start(): void {
-    const camComponent = this.gameObject.getComponent("Camera");
+  onStart(): void {
+    const camComponent = this.getComponent(CameraComponent);
     if (camComponent) {
       this.screen_width = window.innerWidth || 1024; // Default fallback
-      this.Debug.log(`✅ Camera debug inicializálva!`);
-      this.Debug.log(`   Screen Width: ${this.screen_width}px`);
-      this.Debug.log(`   Deadzone: ${(this.deadzone * 100).toFixed(0)}%`);
+      Debug.log(`✅ Camera debug inicializálva!`);
+      Debug.log(`   Screen Width: ${this.screen_width}px`);
+      Debug.log(`   Deadzone: ${(this.deadzone * 100).toFixed(0)}%`);
     }
   }
 }

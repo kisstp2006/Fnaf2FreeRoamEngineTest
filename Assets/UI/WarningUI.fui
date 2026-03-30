@@ -9,10 +9,10 @@
     "id": "root",
     "type": "panel",
     "rect": {
-      "x": -1.0443120423539085,
+      "x": 0,
       "y": 0,
-      "w": 1271.9999999999995,
-      "h": 705.9999999999999
+      "w": 1280,
+      "h": 720
     },
     "children": [
       {
@@ -83,8 +83,8 @@
         "id": "new_game",
         "type": "button",
         "rect": {
-          "x": 16.99097898366499,
-          "y": 275.2480927975195,
+          "x": 16.14278374692002,
+          "y": 273.2480927975195,
           "w": 281.4887614567026,
           "h": 97.92147080185921
         },
@@ -108,11 +108,12 @@
           "align": "left",
           "padding": 8,
           "textColors": {
-            "highlightedColor": "#000000",
-            "pressedColor": "#000000",
-            "selectedColor": "#000000",
+            "highlightedColor": "#ffffff",
+            "pressedColor": "#ffffff",
+            "selectedColor": "#ffffff",
             "disabledColor": "#000000"
-          }
+          },
+          "showBorder": false
         }
       },
       {
@@ -144,11 +145,12 @@
           "align": "left",
           "padding": 8,
           "textColors": {
-            "highlightedColor": "#000000",
-            "pressedColor": "#000000",
-            "selectedColor": "#000000",
+            "highlightedColor": "#ffffff",
+            "pressedColor": "#ffffff",
+            "selectedColor": "#ffffff",
             "disabledColor": "#000000"
-          }
+          },
+          "showBorder": false
         }
       }
     ],

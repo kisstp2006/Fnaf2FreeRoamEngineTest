@@ -9,12 +9,16 @@ export default class MainMenuUI extends FluxionBehaviour {
       
     });
     this.ui.onMouseEnter('new_game', () => {
-      this.log("New Gamere vitted az egered");
       this.ui.setText('new_game',">>New Game");
     });
     this.ui.onMouseEnter('continue', () => {
-      this.log("Continuera vitted az egered");
       this.ui.setText('continue',">>Continue");
+    });
+    this.ui.onMouseExit('new_game', () => {
+      this.ui.setText('new_game',"New Game");
+    });
+    this.ui.onMouseExit('continue', () => {
+      this.ui.setText('continue',"Continue");
     });
   }
 

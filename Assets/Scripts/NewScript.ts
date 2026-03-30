@@ -1,11 +1,10 @@
 export default class NewScript extends FluxionBehaviour {
-  update(dt) {
-    const t = this.Time;
+  onUpdate(dt: number) {
     const tf = this.transform;
 
     // FPS — colour changes with performance
-    const fpsColor = t.fps >= 55 ? '#4ade80' : t.fps >= 30 ? '#facc15' : '#f87171';
-    Debug.drawText(new Vec2(8, 8),  `FPS   ${t.fps.toFixed(0)}  (${(t.deltaTime * 1000).toFixed(1)} ms)`, fpsColor, 13);
+    const fpsColor = Time.fps >= 55 ? '#4ade80' : Time.fps >= 30 ? '#facc15' : '#f87171';
+    Debug.drawText(new Vec2(8, 8),  `FPS   ${Time.fps.toFixed(0)}  (${(Time.deltaTime * 1000).toFixed(1)} ms)`, fpsColor, 13);
 
     if (tf) {
       const p = tf.position;
