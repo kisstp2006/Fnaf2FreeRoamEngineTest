@@ -3,7 +3,8 @@
   "mode": "screen",
   "canvas": {
     "width": 1280,
-    "height": 720
+    "height": 720,
+    "scaleMode": "scaleWithScreenSize"
   },
   "root": {
     "id": "root",
@@ -16,47 +17,27 @@
     },
     "children": [
       {
-        "id": "title",
+        "id": "label_mnc7y1js",
         "type": "label",
         "rect": {
-          "x": -186.31104432757246,
-          "y": 20,
-          "w": 1245.3493613824185,
-          "h": 60
+          "x": 6.274472061645071,
+          "y": 11.241842646118315,
+          "w": 244.44529993604502,
+          "h": 61.04606615295773
         },
-        "text": "Night 1",
+        "text": "12 AM",
         "style": {
-          "color": "#ffffff",
-          "fontSize": 43,
-          "align": "left"
-        }
-      },
-      {
-        "id": "btn1",
-        "type": "button",
-        "rect": {
-          "x": 18.22954235332142,
-          "y": 639.162896824414,
-          "w": 200,
-          "h": 60
+          "align": "left",
+          "fontSize": 63
         },
-        "text": "Click Me",
-        "style": {
-          "backgroundColor": "#2b3a67",
-          "borderColor": "#6b8cff",
-          "borderWidth": 2,
-          "radius": 10,
-          "textColor": "#ffffff",
-          "fontSize": 24,
-          "align": "center",
-          "padding": 8
-        }
+        "anchor": "topLeft"
       }
     ],
     "style": {
       "backgroundColor": "#0b1020",
       "opacity": 0
-    }
+    },
+    "anchor": "topLeft"
   },
   "animations": [
     {

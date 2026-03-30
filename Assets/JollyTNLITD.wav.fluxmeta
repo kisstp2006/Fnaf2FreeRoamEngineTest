@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "guid": "592c2cf4-e8a8-4133-8f19-070649537989",
+  "type": "audio",
+  "sourcePath": "C:/Users/tibig/Downloads/JollyTNLITD.wav",
+  "sourceHash": "4950aa8bbf164c96f16c3734d10d6ef59a211cbf09312449e194b3540e25fe33",
+  "importedHash": "4950aa8bbf164c96f16c3734d10d6ef59a211cbf09312449e194b3540e25fe33",
+  "fileSize": 18669646,
+  "importedAt": "2026-03-28T17:13:00.846Z",
+  "updatedAt": "2026-03-28T17:13:00.846Z",
+  "importSettings": {},
+  "tags": []
+}

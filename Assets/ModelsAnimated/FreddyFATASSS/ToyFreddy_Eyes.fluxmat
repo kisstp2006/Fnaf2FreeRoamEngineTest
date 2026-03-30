@@ -1,0 +1,11 @@
+{
+  "type": "standard",
+  "color": [
+    0.6038273590529664,
+    0.6038273590529664,
+    0.6038273590529664
+  ],
+  "roughness": 0.20078739523887634,
+  "metalness": 0.6038273590529664,
+  "albedoMap": "ToyFreddy_textures/ToyFreddy_Eyes_albedo.png"
+}

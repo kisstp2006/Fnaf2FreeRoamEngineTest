@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "guid": "ae2f7237-60b6-4f84-a16a-dbeca64026eb",
+  "type": "model",
+  "sourcePath": "C:/Users/tibig/Downloads/ToyFreddy.fbx",
+  "sourceHash": "2ec2a8a8e87fc3566f024e1b5bbdf0dae33a281e669c63dca00f5eb4543ddd08",
+  "importedHash": "2ec2a8a8e87fc3566f024e1b5bbdf0dae33a281e669c63dca00f5eb4543ddd08",
+  "fileSize": 26990588,
+  "importedAt": "2026-03-30T17:15:22.434Z",
+  "updatedAt": "2026-03-30T17:15:22.434Z",
+  "importSettings": {
+    "scale": 1,
+    "generateCollider": false,
+    "format": "fbx",
+    "fluxmeshPath": "C:/Users/tibig/Downloads/Fnaf2FreeRoamEngineTest/Assets/ModelsAnimated/FreddyFATASSS/ToyFreddy.fluxmesh"
+  },
+  "tags": []
+}

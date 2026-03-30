@@ -66,6 +66,8 @@
             "spotPenumbra": 0.1,
             "castShadow": false,
             "shadowMapSize": 2048,
+            "shadowBias": -0.0001,
+            "shadowNormalBias": 0,
             "cookieTexturePath": null
           }
         }
@@ -106,6 +108,29 @@
             "receiveShadow": true,
             "layer": 0,
             "modelPath": "Assets/Models/floor.fluxmesh"
+          }
+        },
+        {
+          "type": "Collider",
+          "data": {
+            "__v": 1,
+            "shape": "box",
+            "size": [
+              185.3,
+              0.5,
+              170.4
+            ],
+            "radius": 0.5,
+            "height": 2,
+            "isTrigger": false,
+            "offset": [
+              0,
+              6.3,
+              0
+            ],
+            "meshPath": "Assets/Models/floor.fbx",
+            "collisionLayer": 0,
+            "collisionMask": 0
           }
         }
       ]
@@ -483,7 +508,7 @@
             "fogDensity": 0.02,
             "fogNear": 10,
             "fogFar": 100,
-            "toneMapping": "ACES",
+            "toneMapping": "None",
             "exposure": 1.2,
             "bloomEnabled": true,
             "bloomThreshold": 0.1,
@@ -568,67 +593,6 @@
     },
     {
       "id": 12,
-      "name": "Camera",
-      "parent": null,
-      "tags": [],
-      "components": [
-        {
-          "type": "Transform",
-          "data": {
-            "__v": 1,
-            "position": [
-              -49.9771617115666,
-              13.107976813477471,
-              69.24759859678096
-            ],
-            "rotation": [
-              0,
-              0,
-              0
-            ],
-            "scale": [
-              1,
-              1,
-              1
-            ]
-          }
-        },
-        {
-          "type": "Camera",
-          "data": {
-            "__v": 1,
-            "fov": 60,
-            "near": 0.1,
-            "far": 1000,
-            "isOrthographic": false,
-            "orthoSize": 10,
-            "priority": 0,
-            "isMain": false
-          }
-        },
-        {
-          "type": "Script",
-          "data": {
-            "__v": 1,
-            "enabled": true,
-            "scripts": [
-              {
-                "path": "Assets/Scripts/DebugCamera.ts",
-                "enabled": false,
-                "properties": {}
-              },
-              {
-                "path": "Assets/Scripts/P&CCamera.ts",
-                "enabled": true,
-                "properties": {}
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": 13,
       "name": "Point Light",
       "parent": null,
       "tags": [],
@@ -664,19 +628,21 @@
               1,
               1
             ],
-            "intensity": 20,
+            "intensity": 44.9,
             "range": 60,
             "spotAngle": 45,
             "spotPenumbra": 0.1,
             "castShadow": true,
             "shadowMapSize": 2048,
+            "shadowBias": -0.0001,
+            "shadowNormalBias": 0,
             "cookieTexturePath": null
           }
         }
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Point Light (copy)",
       "parent": null,
       "tags": [],
@@ -712,13 +678,288 @@
               1,
               1
             ],
-            "intensity": 20,
+            "intensity": 72.8,
             "range": 204,
-            "spotAngle": 102,
-            "spotPenumbra": 0.19,
+            "spotAngle": 84,
+            "spotPenumbra": 0.81,
             "castShadow": true,
             "shadowMapSize": 2048,
+            "shadowBias": -0.0001,
+            "shadowNormalBias": 0,
             "cookieTexturePath": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Empty Entity",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -49.975132583208996,
+              13.839610371223722,
+              65.67763510672937
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "AudioSource",
+          "data": {
+            "__v": 1,
+            "clip": "Assets/JollyTNLITD.wav",
+            "volume": 1,
+            "pitch": 1.25,
+            "loop": true,
+            "playOnStart": true,
+            "spatial": false,
+            "minDistance": 1,
+            "maxDistance": 50,
+            "rolloffFactor": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Empty Entity",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -50.55021611087318,
+              10.702541156599086,
+              66.86975686557396
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "__v": 1,
+            "lightType": "spot",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 61.4,
+            "range": 155,
+            "spotAngle": 45,
+            "spotPenumbra": 0.1,
+            "castShadow": true,
+            "shadowMapSize": "4096",
+            "shadowBias": -0.0001,
+            "shadowNormalBias": 0,
+            "cookieTexturePath": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Empty Entity",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -51.74426998771142,
+              14.331131120074607,
+              73.29658148144897
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              4.51,
+              1.67,
+              3.11
+            ]
+          }
+        },
+        {
+          "type": "Script",
+          "data": {
+            "__v": 1,
+            "enabled": true,
+            "scripts": [
+              {
+                "path": "Assets/Scripts/FPSControllerLua.lua",
+                "enabled": true,
+                "properties": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "CharacterController",
+          "data": {
+            "__v": 1,
+            "radius": 1.35,
+            "height": 8.7,
+            "crouchHeight": 0.9,
+            "centerOffsetY": 0.9,
+            "walkSpeed": 16.5,
+            "runSpeed": 25,
+            "crouchSpeed": 2.5,
+            "airSpeed": 3,
+            "jumpImpulse": 6,
+            "maxJumps": 1,
+            "maxSlopeAngle": 45,
+            "maxStepHeight": 0.3,
+            "stepDownHeight": 0.3,
+            "gravityScale": 1,
+            "airFriction": 0.3,
+            "airControl": 0.8,
+            "pushForce": 50,
+            "mass": 70,
+            "coyoteTime": 0.12,
+            "jumpBufferTime": 0.1,
+            "debugVisualize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Camera",
+      "parent": 16,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              0,
+              2.910952820602077,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.22172949002217296,
+              0.5988023952095809,
+              0.3215434083601286
+            ]
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "__v": 1,
+            "fov": 60,
+            "near": 0.1,
+            "far": 1000,
+            "isOrthographic": false,
+            "orthoSize": 10,
+            "priority": 0,
+            "isMain": false,
+            "renderToTexture": false,
+            "rtWidth": 512,
+            "rtHeight": 512
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Camera",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "__v": 1,
+            "fov": 60,
+            "near": 0.1,
+            "far": 1000,
+            "isOrthographic": false,
+            "orthoSize": 10,
+            "priority": 0,
+            "isMain": false,
+            "renderToTexture": false,
+            "rtWidth": 512,
+            "rtHeight": 512
+          }
+        },
+        {
+          "type": "Animation",
+          "data": {
+            "__v": 1,
+            "currentClip": "",
+            "speed": 1,
+            "loop": true,
+            "blendTime": 0.3,
+            "propertyClips": [
+              {
+                "id": "clip_mnd91kch",
+                "name": "New Clip",
+                "duration": 2,
+                "loop": false,
+                "tracks": []
+              }
+            ]
           }
         }
       ]
@@ -726,14 +967,14 @@
   ],
   "editorCamera": {
     "position": [
-      -50.67980773272412,
-      14.654709518320313,
-      71.33253806974093
+      -41.949567106253596,
+      16.215164416849575,
+      72.78502979539778
     ],
     "target": [
-      -50.69464998268681,
-      14.59785387658905,
-      67.92742878021443
+      -55.579836824829606,
+      7.0262862383830225,
+      51.53405908368715
     ],
     "fov": 60
   }

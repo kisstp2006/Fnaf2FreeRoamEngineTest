@@ -1,0 +1,435 @@
+{
+  "name": "WarningScene",
+  "version": 2,
+  "settings": {
+    "ambientColor": [
+      0.27,
+      0.27,
+      0.35
+    ],
+    "ambientIntensity": 0.5,
+    "fogEnabled": true,
+    "fogColor": [
+      0.04,
+      0.055,
+      0.09
+    ],
+    "fogDensity": 0.008,
+    "skybox": null,
+    "physicsGravity": [
+      0,
+      -9.81,
+      0
+    ]
+  },
+  "entities": [
+    {
+      "id": 1,
+      "name": "Empty Entity",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Environment",
+          "data": {
+            "__v": 1,
+            "backgroundMode": "color",
+            "backgroundColor": [
+              0,
+              0,
+              0
+            ],
+            "skyboxMode": "panorama",
+            "skyboxPath": null,
+            "ambientColor": [
+              0.27,
+              0.27,
+              0.35
+            ],
+            "ambientIntensity": 0,
+            "fogEnabled": true,
+            "fogColor": [
+              0,
+              0,
+              0
+            ],
+            "fogMode": "exponential",
+            "fogDensity": 0.008,
+            "fogNear": 10,
+            "fogFar": 100,
+            "toneMapping": "Reinhard",
+            "exposure": 1.2,
+            "bloomEnabled": true,
+            "bloomThreshold": 0.8,
+            "bloomStrength": 0.5,
+            "bloomRadius": 0.4,
+            "ssaoEnabled": true,
+            "ssaoRadius": 0.5,
+            "ssaoBias": 0.025,
+            "ssaoIntensity": 1,
+            "ssrEnabled": true,
+            "ssrMaxDistance": 50,
+            "ssrThickness": 0.5,
+            "ssrStride": 0.3,
+            "ssrFresnel": 1,
+            "ssrOpacity": 0.5,
+            "ssgiEnabled": true,
+            "ssgiSliceCount": 2,
+            "ssgiStepCount": 8,
+            "ssgiRadius": 12,
+            "ssgiThickness": 1,
+            "cloudsEnabled": false,
+            "cloudMinHeight": 200,
+            "cloudMaxHeight": 400,
+            "cloudCoverage": 0.5,
+            "cloudDensity": 0.3,
+            "cloudAbsorption": 1,
+            "cloudScatter": 1,
+            "cloudColor": [
+              1,
+              1,
+              1
+            ],
+            "cloudSpeed": 1,
+            "dofEnabled": false,
+            "dofFocusDistance": 10,
+            "dofAperture": 0.025,
+            "dofMaxBlur": 10,
+            "skyTurbidity": 2,
+            "skyRayleigh": 1,
+            "skyMieCoefficient": 0.005,
+            "skyMieDirectionalG": 0.8,
+            "sunElevation": 45,
+            "sunAzimuth": 180,
+            "vignetteEnabled": true,
+            "vignetteIntensity": 0.3,
+            "vignetteRoundness": 0.5,
+            "chromaticAberration": 0,
+            "filmGrain": 0,
+            "vfogEnabled": true,
+            "vfogDensity": 0.04,
+            "vfogAlbedo": [
+              0.8,
+              0.85,
+              0.9
+            ],
+            "vfogScatter": 0.51,
+            "vfogAbsorption": 0.9,
+            "vfogHeightBase": 0,
+            "vfogHeightFalloff": 0.09,
+            "vfogEmission": [
+              0,
+              0,
+              0
+            ],
+            "vfogEmissionEnergy": 0,
+            "vfogAffectSky": 0.15,
+            "vfogSteps": 1064,
+            "vfogMaxDistance": 200,
+            "shadowCascades": 0,
+            "shadowDistance": 200,
+            "skyboxFaces": {
+              "right": null,
+              "left": null,
+              "top": null,
+              "bottom": null,
+              "front": null,
+              "back": null
+            }
+          }
+        },
+        {
+          "type": "Fui",
+          "data": {
+            "__v": 1,
+            "mode": "screen",
+            "fuiPath": "",
+            "screenX": 0,
+            "screenY": 0,
+            "worldWidth": 1.6,
+            "worldHeight": 0.9,
+            "billboard": true,
+            "playAnimation": "",
+            "animationSpeed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Camera",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -2.3388571169916954,
+              10.538834181767204,
+              6.913078025824778
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "__v": 1,
+            "fov": 60,
+            "near": 0.1,
+            "far": 1000,
+            "isOrthographic": false,
+            "orthoSize": 10,
+            "priority": 0,
+            "isMain": true,
+            "renderToTexture": false,
+            "rtWidth": 512,
+            "rtHeight": 512
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "UI: WarningUI",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Script",
+          "data": {
+            "__v": 1,
+            "enabled": true,
+            "scripts": [
+              {
+                "path": "Assets/Scripts/MenuScript/MainMenuUI.js",
+                "enabled": true,
+                "properties": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "Fui",
+          "data": {
+            "__v": 1,
+            "mode": "screen",
+            "fuiPath": "Assets/UI/WarningUI.fui",
+            "screenX": 0,
+            "screenY": 0,
+            "worldWidth": 1.6,
+            "worldHeight": 0.9,
+            "billboard": true,
+            "playAnimation": "",
+            "animationSpeed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ToyFreddy",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -1.5707963267948963,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "__v": 1,
+            "castShadow": true,
+            "receiveShadow": true,
+            "layer": 0,
+            "modelPath": "Assets/ModelsAnimated/FreddyFATASSS/ToyFreddy.fluxmesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Point Light",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -9.415112636731479,
+              15.487724243251039,
+              -2.84699902069959
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "__v": 1,
+            "lightType": "point",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 3,
+            "range": 13.5,
+            "spotAngle": 45,
+            "spotPenumbra": 0.1,
+            "castShadow": true,
+            "shadowMapSize": 2048,
+            "shadowBias": -0.0001,
+            "shadowNormalBias": 0,
+            "cookieTexturePath": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Point Light (copy)",
+      "parent": null,
+      "tags": [],
+      "components": [
+        {
+          "type": "Transform",
+          "data": {
+            "__v": 1,
+            "position": [
+              -11.450018651188941,
+              14.51756668037738,
+              4.517246372970826
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "__v": 1,
+            "lightType": "point",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "intensity": 3,
+            "range": 13.5,
+            "spotAngle": 45,
+            "spotPenumbra": 0.1,
+            "castShadow": true,
+            "shadowMapSize": 2048,
+            "shadowBias": -0.0001,
+            "shadowNormalBias": 0,
+            "cookieTexturePath": null
+          }
+        }
+      ]
+    }
+  ],
+  "editorCamera": {
+    "position": [
+      3.607938902878481,
+      11.976914070842154,
+      2.648732368559368
+    ],
+    "target": [
+      1.147704306560457,
+      10.761109407398704,
+      0.9478535371330683
+    ],
+    "fov": 60
+  }
+}

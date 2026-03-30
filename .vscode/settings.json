@@ -1,0 +1,51 @@
+{
+  "Lua.runtime.version": "Lua 5.4",
+  "Lua.workspace.library": [
+    ".fluxion/api"
+  ],
+  "Lua.workspace.checkThirdParty": false,
+  "Lua.diagnostics.globals": [
+    "FluxionBehaviour",
+    "EntityRef",
+    "Mathf",
+    "Debug",
+    "Vec2",
+    "Vec3",
+    "Vec4",
+    "Quat",
+    "Color",
+    "Euler",
+    "Mat3",
+    "Mat4",
+    "vec3",
+    "vec3_add",
+    "vec3_sub",
+    "vec3_scale",
+    "vec3_dot",
+    "vec3_cross",
+    "vec3_normalize",
+    "vec3_length",
+    "vec3_lerp",
+    "vec3_dist",
+    "color_lerp",
+    "color_mul",
+    "color_add"
+  ],
+  "Lua.completion.enable": true,
+  "Lua.hover.enable": true,
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "javascript.preferences.includePackageJsonAutoImports": "off",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "files.associations": {
+    "*.lua": "lua",
+    "*.ts": "typescript",
+    "*.js": "javascript"
+  },
+  "files.exclude": {
+    "**/.fluxion/api/fluxion.js": true,
+    "**/.fluxion/api/registry-report.json": true
+  },
+  "search.exclude": {
+    "**/.fluxion": true
+  }
+}

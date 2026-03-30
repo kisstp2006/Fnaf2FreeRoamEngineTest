@@ -29,7 +29,7 @@
   "projectSettings": {
     "project.name": "Untitled",
     "project.version": "1.0.0",
-    "project.defaultScene": "Scenes/Main.fluxscene",
+    "project.defaultScene": "Build/Web/Scenes/WarningScene.fluxscene",
     "project.targetFps": 60,
     "project.rendering.shadows": true,
     "project.rendering.shadowMapSize": "2048",
@@ -74,7 +74,15 @@
     "project.build.outputDir": "Build",
     "project.build.minify": true,
     "project.build.sourceMaps": false,
-    "scripting.editor.fontSize": 13,
+    "editor.debug.showGrid": true,
+    "editor.debug.physics": true,
+    "editor.debug.camera": true,
+    "editor.debug.lights": true,
+    "editor.debug.audio": true,
+    "editor.debug.particles": true,
+    "editor.debug.drawInPlayMode": false,
+    "scripting.editor.openIn": "vscode",
+    "scripting.editor.fontSize": 15,
     "scripting.editor.theme": "vs-dark",
     "scripting.editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, monospace",
     "scripting.editor.minimap": true,
@@ -82,5 +90,13 @@
     "scripting.editor.autoSave": false,
     "scripting.runtime.hotReload": true,
     "scripting.runtime.timeout": 0
+  },
+  "build": {
+    "outputDir": "Build/Web",
+    "startScene": "Scenes/Main.fluxscene",
+    "gameName": "Fnaf2FreeRoamEngineTest",
+    "gameVersion": "1.0.0",
+    "minify": true,
+    "includeSourceMaps": true
   }
 }

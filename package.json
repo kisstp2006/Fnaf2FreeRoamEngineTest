@@ -1,0 +1,9 @@
+{
+  "name": "fnaf2freeroamenginetest",
+  "version": "1.0.0",
+  "private": true,
+  "fluxion": {
+    "engine": "fluxionjs-v3"
+  },
+  "dependencies": {}
+}

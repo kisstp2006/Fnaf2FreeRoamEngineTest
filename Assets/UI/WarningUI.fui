@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "mode": "screen",
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "root": {
+    "id": "root",
+    "type": "panel",
+    "rect": {
+      "x": -1.0443120423539085,
+      "y": 0,
+      "w": 1271.9999999999995,
+      "h": 705.9999999999999
+    },
+    "children": [
+      {
+        "id": "title",
+        "type": "label",
+        "rect": {
+          "x": 12.689815703522584,
+          "y": 17.911375915292176,
+          "w": 122.96965416411388,
+          "h": 60
+        },
+        "text": "Five",
+        "style": {
+          "color": "#ffffff",
+          "fontSize": 36,
+          "align": "left"
+        }
+      },
+      {
+        "id": "label_mnd9sw46_y0r",
+        "type": "label",
+        "rect": {
+          "x": 13.291007322337379,
+          "y": 56.728169651802546,
+          "w": 122.96965416411388,
+          "h": 60
+        },
+        "text": "Nights",
+        "style": {
+          "color": "#ffffff",
+          "fontSize": 36,
+          "align": "left"
+        }
+      },
+      {
+        "id": "label_mnd9thdi_3wv",
+        "type": "label",
+        "rect": {
+          "x": 13.291007322337379,
+          "y": 95.72816965180255,
+          "w": 122.96965416411388,
+          "h": 60
+        },
+        "text": "At",
+        "style": {
+          "color": "#ffffff",
+          "fontSize": 36,
+          "align": "left"
+        }
+      },
+      {
+        "id": "label_mnd9tubi_ple",
+        "type": "label",
+        "rect": {
+          "x": 13.291007322337379,
+          "y": 132.72816965180255,
+          "w": 122.96965416411388,
+          "h": 60
+        },
+        "text": "Freddy's 2",
+        "style": {
+          "color": "#ffffff",
+          "fontSize": 36,
+          "align": "left"
+        }
+      },
+      {
+        "id": "new_game",
+        "type": "button",
+        "rect": {
+          "x": 16.99097898366499,
+          "y": 275.2480927975195,
+          "w": 281.4887614567026,
+          "h": 97.92147080185921
+        },
+        "text": "New Game",
+        "disabled": false,
+        "clickAnimation": "flash",
+        "colors": {
+          "normalColor": "#00000000",
+          "highlightedColor": "#ffffff00",
+          "pressedColor": "#b4b4b400",
+          "fadeDuration": 1.64,
+          "selectedColor": "#1f306000"
+        },
+        "style": {
+          "backgroundColor": "#2b3a67",
+          "borderColor": "#000000",
+          "borderWidth": 0,
+          "radius": 0,
+          "textColor": "#ffffff",
+          "fontSize": 36,
+          "align": "left",
+          "padding": 8,
+          "textColors": {
+            "highlightedColor": "#000000",
+            "pressedColor": "#000000",
+            "selectedColor": "#000000",
+            "disabledColor": "#000000"
+          }
+        }
+      },
+      {
+        "id": "continue",
+        "type": "button",
+        "rect": {
+          "x": 17.142390072617633,
+          "y": 389.5272695027268,
+          "w": 281.4887614567026,
+          "h": 97.92147080185921
+        },
+        "text": "Continue",
+        "disabled": false,
+        "clickAnimation": "flash",
+        "colors": {
+          "normalColor": "#00000000",
+          "highlightedColor": "#ffffff00",
+          "pressedColor": "#b4b4b400",
+          "fadeDuration": 1.64,
+          "selectedColor": "#1f306000"
+        },
+        "style": {
+          "backgroundColor": "#2b3a67",
+          "borderColor": "#000000",
+          "borderWidth": 0,
+          "radius": 0,
+          "textColor": "#ffffff",
+          "fontSize": 36,
+          "align": "left",
+          "padding": 8,
+          "textColors": {
+            "highlightedColor": "#000000",
+            "pressedColor": "#000000",
+            "selectedColor": "#000000",
+            "disabledColor": "#000000"
+          }
+        }
+      }
+    ],
+    "style": {
+      "backgroundColor": "#0b1020",
+      "opacity": 0
+    }
+  }
+}
